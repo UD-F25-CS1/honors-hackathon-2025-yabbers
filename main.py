@@ -3,12 +3,12 @@ from dataclasses import dataclass
 from drafter import *
 
 set_site_information(
-    author="m-yablons@udel.edu",
+    author="myablons@udel.edu",
     description="""Carbon Footprints are something epople might have heard of, but don't know how it applies to them.
     This website lets you change that!""",
     sources=["https://ourworldindata.org/travel-carbon-footprint", 'https://ourworldindata.org/food-choice-vs-eating-local'],
     planning=["your_planning_document.pdf"],
-    links=["https://github.com/m-yablons/your-repo"]
+    links=["https://github.com/myablons/UD-F25-CS1/honors-hackathon-2025-yabbers"]
 )
 hide_debug_information()
 set_website_title("Carbon Footprint Calculator")
