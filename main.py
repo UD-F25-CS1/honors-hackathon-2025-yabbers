@@ -1,5 +1,4 @@
 from bakery import assert_equal
-from meta import *
 from dataclasses import dataclass
 from drafter import *
 
